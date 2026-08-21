@@ -913,7 +913,7 @@ html, body, #root { height: 100%; margin: 0; }
   border-color: var(--gold);
   background: rgba(227,178,60,0.08);
 }
-.persona-card-label { font-size: 13px; font-weight: 600; margin-bottom: 3px; }
+.persona-card-label { font-size: 13px; font-weight: 600; margin-bottom: 3px; color: var(--paper); }
 .persona-card-desc { font-size: 11px; color: var(--fog); line-height: 1.4; }
 
 /* ============ STAKES BADGE ============ */

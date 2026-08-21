@@ -22,7 +22,7 @@ export function PersonaPicker({
             style={{ animationDelay: `${2.3 + i * 0.1}s` }}
             onClick={() => onChange(p.id)}
           >
-            <div className="persona-card-label">{p.label}</div>
+            <div className="persona-card-label text-white text-bold">{p.label}</div>
             <div className="persona-card-desc">{p.description}</div>
           </button>
         ))}
